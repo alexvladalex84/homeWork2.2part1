@@ -54,25 +54,4 @@ public class Kogtevran extends Hogwarts{
 
     }
 
-    public static void compareParameters(Kogtevran[] faculty ,String name1, String name2) {
-
-        int total1 = 0;
-        int total2 = 0;
-        for (int i = 0; i < faculty.length; i++) {
-            Kogtevran faculty1 = faculty[i];
-            int total = faculty1.getIntelligence()+ faculty1.getWisdom() + faculty1.getWit() + faculty1.getCreativity() ;
-            if (faculty1.getName().equals(name1)) {
-                total1 = total;
-                System.out.println(faculty1.getName() + total1);
-            } else if (faculty1.getName().equals(name2)) {
-                total2 = total;
-                System.out.println(faculty1.getName() + total);
-            }
-        }
-        if (total1 > total2) {
-            System.out.println(name1 + " лучший Пуффиндуец , чем " + name2 + ".");
-        } else if (total2 > total1) {
-            System.out.println(name2 + " лучший Пуффиндуец , чем " + name1 + ".");
-        }
     }
-}

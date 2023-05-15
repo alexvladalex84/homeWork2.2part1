@@ -94,27 +94,7 @@ public abstract class Hogwarts {
 
     }
 
-//    public static void compareParameters(String name1, String name2) {
-//
-//        int total1 = 0;
-//        int total2 = 0;
-//        for (int i = 0; i < faculty.length; i++) {
-//            Hogwarts faculty1 = faculty[i];
-//            int total = faculty1.getThePowerOfFalconry()+ faculty1.getTransgress()  ;
-//            if (faculty1.getName().equals(name1)) {
-//                total1 = total;
-//                System.out.println(faculty1.getName() + total1);
-//            } else if (faculty1.getName().equals(name2)) {
-//                total2 = total;
-//                System.out.println(faculty1.getName() + total);
-//            }
-//        }
-//        if (total1 > total2) {
-//            System.out.println(name1 + " лучший Пуффиндуец , чем " + name2 + ".");
-//        } else if (total2 > total1) {
-//            System.out.println(name2 + " лучший Пуффиндуец , чем " + name1 + ".");
-//        }
-//    }
+
 
     @Override
     public String toString() {
